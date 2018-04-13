@@ -1,11 +1,14 @@
 package com.java.jenkins;
 
+import org.testng.annotations.Test;
+
 public class Java_1 {
 
-	public static void main(String[] args) {
+		@Test
+		void m1(){
+			
+		System.out.println("hello world...:");
+		}
 
-		System.out.println("hello world...:)");
-
-	}
 
 }
